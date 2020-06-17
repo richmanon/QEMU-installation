@@ -64,9 +64,9 @@ This example will show an in-tree build.
 <pre>make -j4</pre>
 ## Download an install ISO -from the link mentioned below
 
-[Download_iso_image](https://people.debian.org/~aurel32/qemu/mipsel/) 
+[Download_qemu_image](https://people.debian.org/~aurel32/qemu/mipsel/) 
 
-(I have debian-10.3.0-mipsel-netinst.iso)
+(I have debian_wheezy_mipsel_standard.qcow2)
 Run your QEMU using VNC
 <pre> mipsel-softmmu/qemu-system-mipsel -hda ~/Downloads/debian_wheezy_mipsel_standard.qcow2 -M malta -kernel ~/Downloads/vmlinux-3.2.0-4-4kc-malta -append "root=/dev/sda1 console=tty0" -nic user,ipv6=off,model=e1000,mac=52:54:98:76:54:32</pre>
 
