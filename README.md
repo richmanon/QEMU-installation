@@ -62,7 +62,7 @@ This example will show an in-tree build.
 <pre>./configure --target-list=mipsel-softmmu --enable-debug</pre>
 ## Build in parallel - my system has 4 CPUs
 <pre>make -j4</pre>
-## Download an install ISO -from the link mentioned below
+## Download an install QEMU Image
 
 [Download_qemu_image](https://people.debian.org/~aurel32/qemu/mipsel/) 
 
