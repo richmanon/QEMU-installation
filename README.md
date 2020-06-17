@@ -64,7 +64,7 @@ This example will show an in-tree build.
 <pre>make -j4</pre>
 ## Download an install ISO -from the link mentioned below
 
-[Download_iso_image](https://cdimage.debian.org/debian-cd/current/mips/iso-cd/) 
+[Download_iso_image](https://people.debian.org/~aurel32/qemu/mipsel/) 
 
 (I have debian-10.3.0-mipsel-netinst.iso)
 Run your QEMU using VNC
